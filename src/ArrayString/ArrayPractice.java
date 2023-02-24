@@ -47,7 +47,7 @@ public class ArrayPractice {
 		 
 			 System.out.println(aa[i]);
 		 }
-		 
+		 //
 		// 3. Define an array with some string values write a java program to search specific string in array.
 				String s []= { "Mumbai","Nashik","Pune","Aurangabad"};
 				System.out.println("The size of an array is:"+s.length);
