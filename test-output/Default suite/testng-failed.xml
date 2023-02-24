@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="ParameterizationAndCrossBrowserPractice.Practice1">
+        <methods>
+          <include name="SeletBirthYearField"/>
+          <include name="SeletBirthdateField"/>
+          <include name="NewPassword"/>
+          <include name="ClickSignupBtn"/>
+          <include name="FirstName"/>
+          <include name="SelectGenderRadioButton"/>
+          <include name="SeletBirthMonthField"/>
+          <include name="VerifyLastName"/>
+          <include name="EmailMobNoField"/>
+          <include name="CrossBrowserTesting"/>
+          <include name="VerifyPageTitle"/>
+          <include name="Main"/>
+          <include name="VerifyCurrentUrl"/>
+        </methods>
+      </class> <!-- ParameterizationAndCrossBrowserPractice.Practice1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
